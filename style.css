@@ -1,5 +1,7 @@
 body {
   background-image: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Red Hat Display', sans-serif;
@@ -114,6 +116,14 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .form {
     width: 350px;
   }
